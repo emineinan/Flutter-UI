@@ -3,10 +3,6 @@ import 'package:spotify_ui/models/song.dart';
 import 'package:spotify_ui/widgets/song_item.dart';
 
 class AlbumScreen extends StatelessWidget {
-  const AlbumScreen({Key key}) : super(key: key);
-
-  const AlbumScreen({Key key}) : super(key: key);
-
   AppBar buildAppBar() {
     return AppBar(
       elevation: 0.0,

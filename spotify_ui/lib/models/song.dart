@@ -1,8 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:meta/meta.dart';
 
 class Song {
   final String name;
   final String artist;
 
-  Song({this.name, this.artist});
+  const Song({
+    @required this.name,
+    @required this.artist,
+  });
 }
